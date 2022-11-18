@@ -8,10 +8,10 @@ int main(void) {
   float vect[20];
   printf("Ingrese las notas de los 20 alumnos\n");
   for (int i=0;i<20;i++) {
-    printf("nota %d: ",i+1);
+    printf("Nota alumno %d: ",i+1);
     scanf("%f", &vect[i]);
   }
-  printf("El promedio es: %.2f", promedio (vect));
+  printf("El promedio es: %.2f\n", promedio (vect));
   printf("La cantidad de aprobados es: %d\n", aprobado(vect));
   printf("La cantidad de desaprobados es: %d\n", desaprobado(vect));
 }
