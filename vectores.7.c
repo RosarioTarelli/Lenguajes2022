@@ -29,7 +29,6 @@ float promedio (float vect[]){
 int aprobado (float vect[]){
   int cantaprob=0;
   for (int i=0;i<20;i++){
-    //printf("%f ",vect[i]);
     if (vect[i]>6.99) cantaprob=cantaprob+1;
    }
   return cantaprob;
@@ -38,7 +37,6 @@ int aprobado (float vect[]){
 int desaprobado (float vect[]){
   int cantdesaprob=0;
   for (int i=0;i<20;i++){
-    //printf("%f ",vect[i]);
     if (vect[i]<6.99) cantdesaprob=cantdesaprob+1;
    }
   return cantdesaprob;
